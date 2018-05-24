@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BBC IPLAYER</title>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="css/style1.css"/>
+<meta name="viewport" content="width=device-width" />
+<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet"/>
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<a class="site-id" href="index.html"></a>
+		
+		<div class="menu-icon">
+		</div>
+	</header>
+	<nav>
+		<a href="index.html" class="nav-link">Homepage</a>
+		<a href="#breaker1" id="resp-menu-1" class="nav-link">About IPlayer</a>
+		<a href="#jssor_1" id="resp-menu-2" class="nav-link">Channels</a>
+		<a href="#questions" id="resp-menu-3" class="nav-link">Questions?</a>
+	</nav>
+	<section id="hero">
+		<div class="herotext">
+			<h2>Doctor Who</h2>
+			<p>An eccentric yet compassionate extraterrestrial Time Lord zips through time and space to solve problems and battle injustice across the universe, traveling via the TARDIS.</p>
+			<div class="link2">Watch S01E01 now   </div>
+				<div class="videoplayer1">
+  					<video width="100%" controls>
+  					<source src="img/Attacked By Space Zombies.mp4" type="video/mp4">
+  					Your browser does not support HTML5 video.
+					</video>
+				</div>
+		</div>
+			
+	</section>
+	<section id="secondad">
+		<div class="wrapper2">
+			<div class="secondadcont">
+				<h2>Sherlock Holmes Season 3</h2>
+				<p>Sherlock returns - but will things ever be the same again?</p>
+				<p>This season things are complety different, how will Watson handle his partner returning from the dead? How will Sherlock handle the most deadly criminal mastermind he's ever faced?</p>
+				<div class="scdimg1">
+					<img src="img/sherlock-season-3.jpg" alt="Sherlock Holmes"/>
+				</div>
+				<div class="link">Play Episode 1</div>
+				<div class="videoplayer">
+  					<video width="100%" controls>
+  					<source src="./img/Sherlock_ Series 4 Teaser (Official).mp4" type="video/mp4">
+  					Your browser does not support HTML5 video.
+					</video>
+				</div>
+			</div>
+		</div>
+	</section>
+		<div id="breaker1">
+  		<h2>About BBC IPlayer</h2>
+ 		<p class="hideme">BBC iPlayer is an internet streaming, catchup, television and radio service from the BBC. The service is available on a wide range of devices, including mobile phones and tablets, personal computers, and smart televisions.</p>
+		<p class="hideme">The IPlayer hosts plenty of BBC shows and films such as Doctor who, Sherlock, Call The Midwife, Animals with cameras and many more. </p>
+	</div>
+</div>
+   
+      <div class="wrapper3">
+      	<h3>Whats Next On</h3>
+      	<p>BBC ONE</p>
+      </div>
+	 <!--Slider Script-->
+	
+       <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+   
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;background">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            
+			
+			<div data-p="170.00" id="cover1">
+                <img data-u="image" src="img/one.jpg"/>
+            </div>
+            <div data-p="170.00" id="cover2">
+                <img data-u="image" src="img/002.jpg" />
+            </div>
+            <div data-p="170.00" id="cover3">
+                <img data-u="image" src="img/003.jpg" />
+            </div>
+            
+          
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+	
+	<div class="filler"></div>
+ <!---->
+	
+	
+	
+   								<!--Scott & Mareks Channel Section-->
+   	
+	
+	
+	
+<!---->	
+
+	
+	
+	
+	<div id="channel-section">
+	
+
+		<div class="channel-selection">
+		
+		<div class="row1">
+				<div class="icon-bbc1 hover"></div>
+				<div class="icon-bbc2 hover"></div>
+				<div class="icon-bbc3 hover"></div>
+		</div>
+		<div class="row2">
+				<div class="icon-bbc4 hover"></div>
+				<div class="icon-bbc5 hover"></div>
+				<div class="icon-bbc6 hover"></div>
+		</div>
+		<div class="row3">
+				<div class="icon-bbc7 hover"></div>
+				<div class="icon-bbc8 hover"></div>
+				<div class="icon-bbc9 hover"></div>
+		</div>
+		</div>
+		
+		</div>
+	
+	<section id="box">
+		<div class="container cont-one">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo"></div><h1>BBC1</h1></div>
+							<div class="container-baby-two"><h1>NEWS AT 11</h1></div>		
+							<div class="container-baby-three"><p>Up-to-the-minute news, breaking news, video, audio and feature stories. BBC News provides trusted World and UK news.</p></div>
+							</div>
+						
+		<div class="container-child-right">
+		<div class="vid1">
+        <video style="width:100%;height:100%" controls>
+        <source src="./mp4/news.mp4" type="video/mp4">
+        </video> </div>
+		</div>
+		</div>
+		
+		<div class="container cont-two">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo2"></div><h1>BBC2</h1></div>
+							<div class="container-baby-two"><h2>Love in the Country</h2></div>		
+							<div class="container-baby-three"><p>Eight rural dwellers from across the UK enlist the help of farmer's daughter Sara Cox in their quest for love.</p></div>
+							</div>
+						
+		<div class="container-child-right">
+		<div class="vid1">
+        <video style="width:100%;height:100%" controls>
+        <source src="./mp4/love-in-country.mp4" type="video/mp4">
+        </video> </div>
+		</div>
+		</div>
+		
+		<div class="container cont-three">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo3"></div><h1>BBC3</h1></div>
+							<div class="container-baby-two"><h1>This Country</h1></div>		
+							<div class="container-baby-three"><p>S1 E4: <br>Kerry and Kurtan Mucklowe introduce us to their lives in a typical Cotswold village.</p></div>
+							</div>
+
+		<div class="container-child-right">
+		<div class="vid1"> 
+        <video style="width:100%;height:100%" controls>
+        <source src="./mp4/this-country.mp4" type="video/mp4">
+        </video> </div></div>
+		</div>
+		
+		
+		<div class="container cont-four">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo4"></div><h1>CBBC</h1></div>
+							<div class="container-baby-two"><h1>ARTHUR</h1></div>		
+							<div class="container-baby-three"><p>S16 E10: <br>Arthur thinks his jokes about Sue Ellen's new sweater are all in good fun but Sue Ellen's feelings are hurt. </p></div>
+							</div>
+						
+		<div class="container-child-right">
+		<div class="vid1">
+		 <video style="width:100%;height:100%" controls>
+        <source src="./mp4/arthur.mp4" type="video/mp4">
+        </video>
+		</div></div>
+		</div>
+		
+		<div class="container cont-five">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo5"></div><h1>CBEEBIES</h1></div>
+							<div class="container-baby-two"><h1>Tiddlytubbies</h1></div>		
+							<div class="container-baby-three"><p>And now it's also time to say 'eh-oh' to the Tiddlytubbies, eight adorable, smaller "sibling" figures to the main Teletubbies who just love playing..</p></div>
+							</div>
+						
+		<div class="container-child-right">
+       <div class="vid1">
+       <video style="width:100%;height:100%" controls>
+        <source src="./mp4/tiddly.mp4" type="video/mp4">
+        </video>
+		</div></div>
+		</div>
+	
+		<div class="container cont-six">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo6"></div><h1>BBC ALBA</h1></div>
+							<div class="container-baby-two"><h2>SPFL Cup Highlights</h2></div>		
+							<div class="container-baby-three"><p>Motherwell VS Hearts <br>Scottish cup highlights from the quarter final match between Motherwell and Hearts at Fir Park</p></div>
+							</div>
+						
+		<div class="container-child-right">
+		<div class="vid1">
+       <video style="width:100%;height:100%" controls>
+        <source src="./mp4/football.mp4" type="video/mp4">
+        </video>
+		</div></div>
+		</div>
+		
+		<div class="container cont-seven">
+
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo7"></div><p>BBC Entertainment</p></div>
+							<div class="container-baby-two"><h2>Graham Norton show</h2></div>		
+							<div class="container-baby-three"><p>Special guests Jennifer Lawrence, James McAvoy, Johnny Depp, Jack Whitehall</p></div>
+							</div>
+						
+		<div class="container-child-right">
+		<div class="vid1">
+       <video style="width:100%;height:100%" controls>
+        <source src="./mp4/norton.mp4" type="video/mp4">
+        </video>
+		</div>
+		</div>
+		</div>
+		
+		<div class="container cont-eight">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo8"></div><p>BBC Knowledge</p></div>
+							<div class="container-baby-two"><h1>Dangerous Knowledge</h1></div>		
+							<div class="container-baby-three"><p>Dangerous Knowledge 1 of 2 - BBC Documentary </p></div>
+							</div>
+						
+		<div class="container-child-right">
+		<div class="vid1">
+       <video style="width:100%;height:100%" controls>
+        <source src="./mp4/doc.mp4" type="video/mp4">
+        </video>
+		</div>
+		</div>
+		</div>
+		
+		<div class="container cont-nine">
+			<div class="container-child-left">
+							<div class="container-baby-one"><div class="channel-logo logo9" ></div><h1>Lifestyle</h1></div>
+							<div class="container-baby-two"><h1>Britains fat fight</h1></div>		
+							<div class="container-baby-three"><p>Britain's Fat Fight with Hugh Fearnley-Whittingstall
+Documentary series exploring the obesity crisis. </p></div>
+							</div>
+						
+		<div class="container-child-right">
+				<div class="vid1">
+       <video style="width:100%;height:100%" controls>
+        <source src="./mp4/fat.mp4" type="video/mp4">
+        </video>
+		</div>
+		</div>
+		</div>
+		
+	</section>
+	
+	<!--SCOTT & MAREKS CHANNEL SECTION END-->
+	<div class="filler"></div>
+	
+	<section id="questions">
+   		<div class="wrapper2">
+   			<h3 class="hideme" >Frequently Asked Questions.</h3>
+   			<ul>
+   				<li><h4 class="hideme" >What is IPlayer?</h4>
+   					<p class="hideme" >IPlayer is an online video streaming site, that primarily streams BBC content.</p>
+   				</li>
+   				<li><h4 class="hideme" >Do I need to have a TV licsense to watch BBC content?</h4>
+   					<p class="hideme" >Yes you need a TV liscense to view this content.</p>
+   				</li>
+   				<li><h4 class="hideme" >How long are BBC programmes kept for?</h4>
+   					<p class="hideme" >We keep programmes for 30 days on the IPlayer after they have been aired live.</p>
+   				</li>
+   				<li><h4 class="hideme" >Can I watch older shows?</h4>
+   					<p class="hideme" >We occasionally promote older content on our site, But most of our box sets and shows are available to purchase.</p>
+   				</li>
+   			</ul>
+   		</div>
+   	</section>
+<footer>
+	<div class="footeimg">
+	</div>
+</footer>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
+	<script type="text/javascript">jssor_1_slider_init();</script>
+</body>
+</html>
