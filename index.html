@@ -37,6 +37,10 @@
 		</div>
 			
 	</section>
+	
+	<div class="filler">
+	</div>
+	
 	<section id="secondad">
 		<div class="wrapper2">
 			<div class="secondadcont">
@@ -56,113 +60,11 @@
 			</div>
 		</div>
 	</section>
-		<div id="breaker1">
-  		<h2>About BBC IPlayer</h2>
- 		<p class="hideme">BBC iPlayer is an internet streaming, catchup, television and radio service from the BBC. The service is available on a wide range of devices, including mobile phones and tablets, personal computers, and smart televisions.</p>
-		<p class="hideme">The IPlayer hosts plenty of BBC shows and films such as Doctor who, Sherlock, Call The Midwife, Animals with cameras and many more. </p>
-	</div>
 </div>
    
-      <div class="wrapper3">
-      	<h3>Whats Next On</h3>
-      	<p>BBC ONE</p>
-      </div>
-	 <!--Slider Script-->
+<div class="filler">
+</div>
 	
-       <script type="text/javascript">
-        jssor_1_slider_init = function() {
-
-            var jssor_1_SlideshowTransitions = [
-              {$Duration:800,$Opacity:2}
-            ];
-
-            var jssor_1_options = {
-              $AutoPlay: 1,
-              $SlideshowOptions: {
-                $Class: $JssorSlideshowRunner$,
-                $Transitions: jssor_1_SlideshowTransitions,
-                $TransitionsOrder: 1
-              },
-              $ArrowNavigatorOptions: {
-                $Class: $JssorArrowNavigator$
-              },
-              $BulletNavigatorOptions: {
-                $Class: $JssorBulletNavigator$
-              }
-            };
-
-            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
-
-            /*#region responsive code begin*/
-
-            var MAX_WIDTH = 980;
-
-            function ScaleSlider() {
-                var containerElement = jssor_1_slider.$Elmt.parentNode;
-                var containerWidth = containerElement.clientWidth;
-
-                if (containerWidth) {
-
-                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
-
-                    jssor_1_slider.$ScaleWidth(expectedWidth);
-                }
-                else {
-                    window.setTimeout(ScaleSlider, 30);
-                }
-            }
-
-            ScaleSlider();
-
-            $Jssor$.$AddEvent(window, "load", ScaleSlider);
-            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
-            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
-            /*#endregion responsive code end*/
-        };
-    </script>
-   
-    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;background">
-        <!-- Loading Screen -->
-        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
-            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/spin.svg" />
-        </div>
-        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
-            
-			
-			<div data-p="170.00" id="cover1">
-                <img data-u="image" src="img/one.jpg"/>
-            </div>
-            <div data-p="170.00" id="cover2">
-                <img data-u="image" src="img/002.jpg" />
-            </div>
-            <div data-p="170.00" id="cover3">
-                <img data-u="image" src="img/003.jpg" />
-            </div>
-            
-          
-        </div>
-        <!-- Bullet Navigator -->
-        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
-            <div data-u="prototype" class="i" style="width:16px;height:16px;">
-                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
-                </svg>
-            </div>
-        </div>
-        <!-- Arrow Navigator -->
-        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
-            </svg>
-        </div>
-        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
-            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
-                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
-            </svg>
-        </div>
-    </div>
-	
-	<div class="filler"></div>
  <!---->
 	
 	
@@ -200,6 +102,12 @@
 		</div>
 		
 		</div>
+	
+	
+	<div class="choose-selection">
+	<p>Select your channel to see what's playing now!</p>
+	</div>
+	
 	
 	<section id="box">
 		<div class="container cont-one">
@@ -330,7 +238,7 @@
 							<div class="container-baby-one"><div class="channel-logo logo9" ></div><h1>Lifestyle</h1></div>
 							<div class="container-baby-two"><h1>Britains fat fight</h1></div>		
 							<div class="container-baby-three"><p>Britain's Fat Fight with Hugh Fearnley-Whittingstall
-Documentary series exploring the obesity crisis. </p></div>
+																	Documentary series exploring the obesity crisis. </p></div>
 							</div>
 						
 		<div class="container-child-right">
@@ -345,6 +253,118 @@ Documentary series exploring the obesity crisis. </p></div>
 	</section>
 	
 	<!--SCOTT & MAREKS CHANNEL SECTION END-->
+	
+	<div class="wrapper3">
+      	<h3>Whats Next On</h3>
+      	<p>BBC ONE</p>
+      </div>
+	
+	
+		 <!--Slider Script-->
+	
+       <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+   
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;background">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            
+			
+			<div data-p="170.00" id="cover1">
+                <img data-u="image" src="img/one.jpg"/>
+            </div>
+            <div data-p="170.00" id="cover2">
+                <img data-u="image" src="img/002.jpg" />
+            </div>
+            <div data-p="170.00" id="cover3">
+                <img data-u="image" src="img/003.jpg" />
+            </div>
+            
+          
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+	
+		 <!--Slider Script End-->
+	<div class="filler"></div>
+	<div class="filler"></div>
+	
+	<div id="breaker1">
+  		<h2>About BBC IPlayer</h2>
+ 		<p class="hideme">BBC iPlayer is an internet streaming, catchup, television and radio service from the BBC. The service is available on a wide range of devices, including mobile phones and tablets, personal computers, and smart televisions.</p>
+		<p class="hideme">The IPlayer hosts plenty of BBC shows and films such as Doctor who, Sherlock, Call The Midwife, Animals with cameras and many more. </p>
+	</div>
+	
 	<div class="filler"></div>
 	
 	<section id="questions">

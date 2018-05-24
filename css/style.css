@@ -84,6 +84,10 @@ nav a:hover{
 	background-size:cover;
 	height:500px;
 	width:100%;
+	border-bottom:solid;
+	border-width:3px;
+	border-color:#FFFFFF;
+	
 }
 .herotext{
 	position: relative;
@@ -156,6 +160,7 @@ nav a:hover{
 	margin: auto;
 	overflow: hidden;
 	background-color:darkred;
+	text-align: center;
 }
 .wrapper3 h3{
 	color:#FFFFFF;
@@ -165,6 +170,7 @@ nav a:hover{
 	color:#FFFFFF;
 	padding-left:10px;
 	font-size: 25px;
+	text-shadow: -3px -3px 5px #000000;
 }
 #secondad{
 	width: 100%;
@@ -172,8 +178,9 @@ nav a:hover{
 	background: url(../img/sherlock.jpg) no-repeat center;
 	background-size: cover;
 	border-top: solid;
+	border-bottom: solid;
 	border-radius: 3px;
-	border-width: 1.5px;
+	border-width: 3px;
 	border-color:white;
 }
 .secondadcont h2{
@@ -356,7 +363,11 @@ footer{
 #box{
 
 	height:250px;
-	width:100%;}
+	width:100%;
+	border-top:solid;
+	border-bottom:solid;
+	border-width:3px;
+	border-color:#000000;}
 #space{	
 	height:50px;
 	width:100%;}
@@ -611,8 +622,22 @@ box-sizing: border-box;}
 	background-position: center;
 	background-size: contain;}
 .filler{
-	height:50px;
+	height:25px;
 	width:100%;
 	display: block;
-	background-color:darkred;
+	background-color:darkred;}
+.choose-selection{
+	width:100%;
+	margin:0;
+	padding:0;
+	height:auto;
+	background-color: darkred;}
+.choose-selection p{
+	font-size: 20px;
+	color:#FFFFFF;
+	margin:0;
+	padding:0;
+	text-align: center;
+	position:relative;
+	bottom:30px;
 }
