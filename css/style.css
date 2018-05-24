@@ -191,7 +191,7 @@ nav a:hover{
 .secondadcont p{
 	text-align: center;
 	color: #FFFFFF;
-	font-size: 20px;
+	font-size: 18px;
 	text-shadow: -0px -0px 5px #000000;
 }
 .scdimg1{
@@ -220,6 +220,10 @@ nav a:hover{
 	opacity: 0.8;
 	text-align: center;
 	margin-bottom: 20px;
+	font-size:28px;
+}
+.link:hover{
+	color:darkred;
 }
 .link2{
 	color: #FFFFFF;
@@ -227,7 +231,7 @@ nav a:hover{
 	font-size: 27px;
 }
 .link2:hover{
-	color:red;
+	color:darkred;
 }
 
 a {
@@ -639,5 +643,13 @@ box-sizing: border-box;}
 	padding:0;
 	text-align: center;
 	position:relative;
-	bottom:30px;
-}
+	bottom:30px;}
+
+.cont-six h1 {
+	font-size:18px;}
+.cont-five h1 {
+	font-size:18px;}
+.cont-seven p {
+	font-size:12px;}
+.cont-eight p {
+	font-size:12px;}
